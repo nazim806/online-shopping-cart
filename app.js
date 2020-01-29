@@ -45,8 +45,7 @@ class UI {
         <!--single product-->
         <article class="product">
                 <div class="img-container">
-                    <img 
-                    src=${product.image} 
+                    <img src= ${product.image} 
                     alt="product" 
                     class="product-img" />
 
@@ -140,7 +139,7 @@ class UI {
     cart = Storage.getCart();
     this.setCartValues(cart);
     this.populateCart(cart);
-    cardBtn.addEventListener("click", this.showCart);
+    cartBtn.addEventListener("click", this.showCart);
     closeCartBtn.addEventListener("click", this.hideCart);
   }
   populateCart(cart) {
