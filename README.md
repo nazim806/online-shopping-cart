@@ -8,4 +8,4 @@ To use the e-commece app [click here](https://nazim806.github.io/online-shopping
 
 **Technology used:**
 
-HTML5, CSS3 and vanilla javascript.
+_HTML5_, _CSS3_ and _vanilla javascript_.
